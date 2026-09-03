@@ -23,7 +23,7 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://nuruv4.vercel.app/"
+    "https://nuruv4.vercel.app"
   ],
   credentials: true
 }));
